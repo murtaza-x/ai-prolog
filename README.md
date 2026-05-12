@@ -1,10 +1,10 @@
-# 🛡️ CyberSec Expert System
+#  CyberSec Expert System
 ### Cyber Security Threat Detection Expert System
 **Built with: Prolog (SWI-Prolog) + Python (CustomTkinter + PySwip)**
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 ```
 cybersec_expert_system/
@@ -17,11 +17,11 @@ cybersec_expert_system/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Step 1 — Install SWI-Prolog
 Download from: https://www.swi-prolog.org/download/stable
-- ✅ Check "Add to PATH" during installation
+-  Check "Add to PATH" during installation
 - Verify: open CMD and type `swipl --version`
 
 ### Step 2 — Install Python dependencies
@@ -40,7 +40,7 @@ python gui.py
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 User selects symptoms in GUI
@@ -56,7 +56,7 @@ GUI displays results with explanations
 
 ---
 
-## 📊 Knowledge Base Summary
+##  Knowledge Base Summary
 
 | Category        | Count |
 |----------------|-------|
@@ -65,41 +65,34 @@ GUI displays results with explanations
 | Threats Covered | 9     |
 
 ### Threats Detected:
-1. 🎣 Phishing
-2. 🦠 Malware
-3. 🔒 Ransomware
-4. 🔑 Weak Password
-5. 📡 Unsafe WiFi
-6. 🎭 Social Engineering
-7. ⌨️ Keylogger
-8. 👁️ Spyware
-9. 🕵️ Man-in-the-Middle (MitM) Attack
+1.  Phishing
+2.  Malware
+3.  Ransomware
+4.  Weak Password
+5.  Unsafe WiFi
+6.  Social Engineering
+7.  Keylogger
+8.  Spyware
+9.  Man-in-the-Middle (MitM) Attack
 
 ---
 
-## 🎓 Academic Requirements Met
+##  Academic Requirements Met
 
-- ✅ 30 Prolog Facts (exceeds 25–30 minimum)
-- ✅ 20 Prolog Rules (exceeds 15–20 minimum)
-- ✅ Query Processing (PySwip integration)
-- ✅ Decision Explanation Capability
-- ✅ Python GUI (CustomTkinter)
-- ✅ Python-Prolog Integration (PySwip)
-- ✅ Severity Classification
-- ✅ Recommendations for each threat
+-  30 Prolog Facts (exceeds 25–30 minimum)
+-  20 Prolog Rules (exceeds 15–20 minimum)
+-  Query Processing (PySwip integration)
+-  Decision Explanation Capability
+-  Python GUI (CustomTkinter)
+-  Python-Prolog Integration (PySwip)
+-  Severity Classification
+-  Recommendations for each threat
 
 ---
 
-## 💡 Demo Mode
+##  Demo Mode
 
 If SWI-Prolog is not installed, the app runs in **Demo Mode** using Python-based rules.
 The GUI works identically — good for testing the interface.
 
 ---
-
-## 📝 Viva Tips
-
-- Explain: "Prolog uses backward chaining to match user symptoms against rules"
-- Explain: "PySwip is a Python wrapper that lets us call Prolog queries from Python"
-- Show: adding a new rule in knowledge_base.pl is easy (1-2 lines)
-- Explain: "The explain/1 predicate provides decision transparency"
